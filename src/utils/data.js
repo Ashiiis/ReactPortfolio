@@ -4,7 +4,7 @@ export const SKILLS =[
         icon: "./assets/images/frontend-icon.png",
         skills: [
             { skill: 'HTML5', percentage: "80%" },
-            { skill: 'CSS', percentage: "90%" },
+            { skill: 'Tailwind CSS', percentage: "90%" },
             { skill: 'JavaScript', percentage: "70%" },
             { skill: 'ReactJS', percentage: "85%" }
         ],
@@ -13,20 +13,20 @@ export const SKILLS =[
     title: "Backend",
     icon: "./assets/images/backend-icon.png",
     skills: [
-        { skill: "Node.js", percentage: "70%" },
+        { skill: "Node.js", percentage: "50%" },
         { skill: "Django", percentage: "80%" },
-        { skill: "Sqlite3", percentage: "70%"},
-        { skill: "NextJs", percentage: "60%"}
+        { skill: "Rest", percentage: "80%"},
+        { skill: "NextJs", percentage: "40%"}
     ],
 },
 {
     title: "Tools",
         icon: "./assets/images/tools.png",
         skills: [
-            { skill: 'Git &Github', percentage: "90%" },
+            { skill: 'Git &Github', percentage: "80%" },
             { skill: 'MongoDb', percentage: "85%" },
-            { skill: 'Visual Studio code', percentage: "90%" },
-            { skill: 'Responsive Design', percentage: "90%" }
+            { skill: 'Docker', percentage: "75%" },
+            { skill: 'Socket Programming', percentage: "60%" }
         ],
 },
 {
@@ -46,27 +46,27 @@ export const WORK_EXPERIENCE =[
         title: "Team Leader",
         date: "05/2022 - 05/2022",
         responsibilties: [
-        "contributed to a Team project as team ",
-        "As being a Team leader for the first time i learned to deal with all the things which gived me a sence of responsiblity",
-        "Managed the time barrier as it was such a short time to build the project which is based on Water quality check and air purification test "
+        "our task is to convert the output fields from calculator of of efficiency of a hydrogen generator into a user understandable formate.",
+        "Directed a team of 8 during a critical project phase, developing and fostering a sense of accountability, ultimately boosting team efficiency by 20% and meeting all deadlines ahead of schedule.",
+        "Collaborated with different field requirements like chemical and mathematical knowledge and setup the requried script"
     ],
     },
     {
-        title: "Azure Cloud",
+        title: "Project Head",
         date: "08/2022 - 09/2022",
         responsibilties: [
-        "Volunteer as a Web developer in azure cloud days for 3weeks ",
-        "in those 3 weeks i've met more then 100's of new peoples along with many senior members and guided them through my work and aouot the club",
-        "completed various tasks provided to me and conducted meetups smoothly "
+        "Our work is to converted a aggricultural water requirment formula into python script for ml modeling.",
+        "I setted-up the roadmap for the achievement of required tasks by covering all the possible aspects and loop holes",
+        "the overall colaboration leades to a smooth work flow in that time bounded state, and many challenging tasks were accomplished in time."
     ], 
     },
     {
-        title: "Hackathon",
+        title: "Web Developer",
         date: "10/2023 - 10/2023",
         responsibilties: [
-            "Leaded a Team of 4 members in a Global level Hackathon By Microsoft Azure Community and become a part of top performing teams",
-            "My role was to handle the backend part of the project and After that i helped my team mates to arrange the front web page and other things required.",
-            "participate in the first ever hackathon as a team leader and guide the more senior members in the team and did a lot more to complete the task on time"
+            "I worked as a backend web developer in a project based internship .",
+            "I lead a team of 3 members for structuring the project architecture to meet required goles.",
+            "I also helped the fellow members to decrease the latency of (ML) model simplifying the approach to access the dataset."
         ],  
     },
 ];
@@ -75,43 +75,39 @@ export const PERSONAL_PROJECTS =[
         title: "coffee&cream",
         date: "06/2023 - 07/2023",
         responsibilties: [
-        "I've created a eCommerce based website specialy for coffee's and other bevrages. ",
-        "In that website user will login with a valid user id and place order by choosing the products and then enter the address details and use a secured payment gateway for the payment ",
-        "I used (Html,css,js) , django , github , googlemaos api , sql Db"
+        "Project Description : Developed a Django-based coffee shop website using HTML, CSS, and JavaScript. Implemented secure sign-in and login with custom API keys. Designed a dynamic interface displaying menu items .",
+        "Role : Backend development, focusing on user authentication, API creation, and database integration. Collaborated closely with frontend team for seamless design integration. Managed project milestones to deliver a responsive coffee ordering platform.",
+        "Tech Stack : Utilized Django and Python for backend logic. HTML, CSS, and JavaScript for frontend functionality. RESTful APIs for authentication and authorization. Razor Pay api for payment gateway to online transactions."
     ],
     },
     {
         title: "Health Hunt",
-        date: "08/2023 - 09/2023",
+        date: "08/2023 - 10/2023",
         responsibilties: [
-        "In that project i created a web app which helps the corporat workers to fetch some time to get some mental relax and release physical stress from their daily routen. in this user can watch specially selected awesome videos according to their mood which provide them eough dopermine to feel good ",
-        "I used django , ReactJs , youtube Api"
+        "Project Description : Web application aimed at providing mental relaxation and physical stress relief for corporate workers. where users can watch specially curated videos tailored to their mood, designed to boost dopamine levels and promote well-being. ",
+        "Role : Full-stack development, focusing on Django backend and React frontend implementation. Implemented user's mood based video curation feature. Managed integration of API and Lydar for enhanced functionality.",
+        "Tech Stack : Utilized Django for backend logic, handling data processing and API integrations. Implemented React for responsive frontend interfaces. Employed Lydar for additional user experience enhancements."    
     ], 
     },
     {
-        title: "Re-view",
-        date: "12/2023 - 01/2024",
+        title: "Lets Connect",
+        date: "12/2023 - 02/2024",
         responsibilties: [
-            " create a website in which peoples can actually see the true reviews about any place or thing which means no bot generated reviews and also the reviews are being calculated by a machine learning module which gives gives the overall reviews by calculating (how old are those reviews and the frequency and all) also i used an authentication system so that any peson can not spam fake out the reviews.",
-            "i Used Sqlite3 , Reactjs , travelo api , Djangos, js , telwing "            
-        ],  
-    },
-    {
-        title: "Doit",
-        date: "12/2024 - 02/2024",
-        responsibilties: [
-            "That was actually a website for school students and freelencers who like to inovate and develope new machiniry and technologies . that website can provide all the required Information and Required resources to the Users.",
-            "I Used  Django , Reactjs(React css) , Nodejs , Postgresql"
+            "Project Description : A highly customizable chat application featuring live chat, chatbot support, and media file sharing capabilities along with message handling, media sending/receiving, and theme customization.",
+            "Role : Designed and implemented the Django API to manage user authentication, message handling, and media sharing. Real-time communication features. Developed the frontend, state management with Redux, and enhanced user experience.",
+            "Tech Stack : Backend functionalities with Django and REST Framework, employing web sockets and Redis .Responsive frontend using React and Tailwind CSS for styling, React Router for navigation, Redux , and React Hooks for efficient frontend logic."
         ],  
     },
     {
         title: "Authint",
-        date: "01/2024 - 02/2024",
+        date: "01/2024 - 04/2024",
         responsibilties: [
-            "It is a Authentication Related Api which can be used in small websites to integrate Security and verification system for their users. Techstack i've use",
-            "I Used Django , sqlite3, Authint Api"
+            "Project Description : This project is a collection of various microservices which are required in almost every development project, features like (Signup , Login and real time chat implementation along with various additional features) can be implemented into it by using this django rest api.",
+            "Role : Using Django rest api and varius default features like database connectivity and authentication system, i gave this project a personalized touct where user can add these services by using (/name of service) in the link formate of their frontend .",
+            "Tech Stack : I used Django rest api along with web tokenization system and web socketing support. for database connectivity i used Sqlit3 which can be changed according to the user's requirement ."
         ],  
     },
+    
     
 ]
 // This whole project belongs to ashish raghav
